@@ -61,14 +61,29 @@ function esPar(num) {
    // Retorna true si "num" es par.
    // De lo contrario, retorna false.
    // Tu código:
+   if(num % 2 === 0) {
+      console.log('Es numero par');
+      return 'Es numero par';
+   } else 
+      console.log('Es numero impar');
+      return 'Es numero impar';
 }
+
+esPar(11)
    
 
 function esImpar(num) {
    // Retorna true si "num" es impar.
    // De lo contrario, retorna false.
    // Tu código:
+   if(num % 2 === 0) {
+      console.log('Es numero par');
+      return 'Es numero par';
+   } else 
+      console.log('Es numero impar');
+      return 'Es numero impar';
 }
+esImpar(11)
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
