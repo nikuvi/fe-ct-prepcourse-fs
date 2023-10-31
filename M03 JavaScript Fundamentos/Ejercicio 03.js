@@ -25,7 +25,7 @@ function tienenMismaLongitud(str1, str2) {
    } else if (str1 <= str2)
       console.log('NO tienen la misma longitud');
       return 'NO tienen la misma longitud';
-   else ()
+   
 }
 tienenMismaLongitud(str1='hola',str2='hdla')
 //EL CODIGO DE ARRIBA ESTÁ MAL
@@ -61,6 +61,7 @@ function esPar(num) {
    // Retorna true si "num" es par.
    // De lo contrario, retorna false.
    // Tu código:
+}
    
 
 function esImpar(num) {
